@@ -7,8 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-  console.log('to health!');
-  res.json({ status: "OK!!!!!" });
+  res.json({ status: "ok" });
 });
 
 app.listen(PORT, () => {
